@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/messages_pt_BR.min.js"></script>
+</head>
+
+<body>
+    <div class="form">
+        <h1>Cadastro</h1>
+        <form id="formCadastro">
+            <div class="form-campo">
+                <label for="nome"></label>
+                <input type="text" placeholder="Nome" name="nome" required>
+            </div>
+            <div class="form-campo">
+                <label for="email"></label>
+                <input type="email" placeholder="Email" id="email" name="email" required>
+            </div>
+            <div class="form-campo">
+                <label for="telefone"></label>
+                <input type="tel" placeholder="Telefone" name="telefone" id="tel" required>
+            </div>
+            <div class="form-campo">
+                <label for="cpf"></label>
+                <input type="text" placeholder="CPF" name="cpf" id="cpf" required>
+            </div>
+            <div class="form-campo">
+                <label for="cep"></label>
+                <input type="text" placeholder="CEP" name="cep" id="cep" required>
+            </div>
+            <div class="form-campo">
+                <label for="endereco"></label>
+                <input type="text" placeholder="Endereço completo" name="endereco" required>
+            </div>
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
